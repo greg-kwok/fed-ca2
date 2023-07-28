@@ -1,0 +1,22 @@
+.flipcard{
+    transform: rotateY(180deg);
+    margin-bottom: 150px;
+}
+
+.front{
+    backface-visibility: hidden;
+    text-align: center;
+}
+
+.back{
+    position: absolute;
+    backface-visibility: hidden;
+    text-align: center;
+    transform: rotateY(180deg);
+}
+.card{
+    transform-style: preserve-3d;
+    transform: all 0.8s ease;
+    background: transparent;
+    border: none;
+}

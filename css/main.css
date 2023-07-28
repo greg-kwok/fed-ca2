@@ -1,0 +1,24 @@
+.bg1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)),url('../images/background.jpg');
+    height: 100vh
+}
+
+.bg2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)),url('../images/background.jpg');background-repeat: no-repeat; background-attachment:fixed;
+    height: 100vh
+}
+
+.bg3{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)),url('../images/background2.jpg');background-repeat: no-repeat;
+    height: auto;   
+}
+
+.bg4{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)),url('../images/background4.jpg');background-repeat: no-repeat;
+    height: auto;
+}
+
+.bg5{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)),url('../images/background3.jpg');background-repeat: no-repeat;
+  height: auto;
+}
