@@ -22,3 +22,8 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)),url('../images/background3.jpg');background-repeat: no-repeat;
   height: auto;
 }
+
+.fit{
+    object-fit:contain;
+    width: 350px;
+}
