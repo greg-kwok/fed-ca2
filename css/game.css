@@ -8,13 +8,13 @@
     border: 1px solid black;
     margin: auto;
     overflow: hidden;
-    background-image: url('../images/gamebackground.jpg');
+    background-image: url('../images/minecraft-blue-background.png');
     background-size: cover;
 }
 #block{
     width: 50px;
     height: 500px;
-    background-image: url('../images/tree.png');
+    background-color: rgb(128,186,255);
     background-size: cover;
     position: relative;
     left: 400px;
