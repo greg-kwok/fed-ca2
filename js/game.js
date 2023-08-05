@@ -50,8 +50,15 @@ document.addEventListener('keyup', event => {
       jump()
     }
   })
+document.addEventListener('keyup', event => {
+    if (event.key === 'z') {
+      jump()
+      jump()
+    }
+  })
 document.addEventListener("click", function(){
     jump()
 });
 
 document.getElementById("scoresheet").innerHTML = ("Highest Score: "+(newestcount));
+
