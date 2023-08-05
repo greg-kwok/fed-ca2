@@ -16,7 +16,7 @@
 }
 .card{
     transform-style: preserve-3d;
-    transform: all 0.8s ease;
+    transition: transform 0.8s ease;
     background: transparent;
     border: none;
 }
